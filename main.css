@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.language {
+    gap: 5px;
+}
+
+.shelter_title {
+    text-align: center;
+}
+
+.searchbar {
+    gap: 10px;
+    border-bottom: 1px #CCC8C8 solid;
+    border-top: 1px #CCC8C8 solid;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.--flex {
+    display: flex;
+}
+
+.search_icon {
+    height: 10px;
+}
+
+.search_text {
+    margin: 0;
+}
+
+@media (min-width:1000px) {
+    .shelter_title {
+        color: red;
+    }
+
+}
